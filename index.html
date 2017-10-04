@@ -6,7 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
 
+<style>
+    #fact{
+        display:none;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card bg-primary">
+                    <h1>Number Facts</h1>
+                    <p>Enter a number to get a random fact...</p>
+                    <input type="number" id="numberInput" class="form-control">
+                    <div id="fact" class="card-body">
+                        <h4 class="card-title">Number Fact</h4>
+                        <p id="fact-text" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
